@@ -64,6 +64,18 @@
 </head>
 <body>
   
+  <!-- placeholder in body -->
+<div id="header-placeholder"></div>
+
+<!-- load header -->
+<script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("header-placeholder").innerHTML = html;
+    });
+</script>
+  
   <div class="container">
     <h1>Journal Articles</h1>
     <div class="article-grid">
