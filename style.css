@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -60,13 +60,11 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  position: fixed;
+  margin-bottom: 20px; /* space between nav and content */
   top: 0;
   left: 0;
   z-index: 1000;
   box-sizing: border-box;
-}
-.navbar .brand {
   font-weight: bold;
   font-size: 1rem;
   flex: 1 1 auto;
@@ -88,47 +86,4 @@ a:hover {
 }
 .spacer {
   height: 70px;
-}
-.feature-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-  max-width: 800px;
-  padding: 2rem;
-  margin: 2rem;
-  text-align: center;
-}
-.feature-box img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 1rem;
-  margin-bottom: 1.5rem;
-}
-.feature-box h2 {
-  margin-bottom: 1rem;
-}
-.feature-box p {
-  margin-bottom: 1rem;
-}
-.nav-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 800px;
-  margin-top: 1rem;
-}
-.nav-buttons button {
-  background-color: #333333;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.nav-buttons button:hover {
-  background-color: #555555;
 }
