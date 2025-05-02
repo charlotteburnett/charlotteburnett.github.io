@@ -1,3 +1,5 @@
+/* make comments within this syntax */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -46,13 +48,13 @@ a:hover {
   margin-top: 30px;
 }
 
+/* styling for publications.html */
 .container2 {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
   background-color: #ffffff;
 }
-
 .article-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -91,6 +93,8 @@ a:hover {
   color: #666666;
   font-size: 0.95em;
 }
+
+/* styling for header.html */
 .navbar {
   width: 100%;
   background-color: #333333;
