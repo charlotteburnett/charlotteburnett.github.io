@@ -13,9 +13,44 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
-      overflow: hidden;
+    }
+    .navbar {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-sizing: border-box;
+    }
+    .navbar .brand {
+      font-weight: bold;
+      font-size: 1rem;
+      flex: 1 1 auto;
+      white-space: nowrap;
+    }
+    .navbar nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .navbar nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+    .navbar nav a:hover {
+      text-decoration: underline;
+    }
+    .spacer {
+      height: 70px;
     }
     .feature-box {
       display: flex;
@@ -63,6 +98,16 @@
   </style>
 </head>
 <body>
+  <div class="navbar">
+    <div class="brand">Jane Doe — Creative Artist</div>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./publications.html">Publications</a>
+      <a href="./gallery.html">Gallery</a>
+    </nav>
+  </div>
+  <div class="spacer"></div>
+
   <div class="feature-box" id="featureBox">
     <img id="featureImg" src="https://cdn.glitch.global/7004fb2b-210d-464f-acbf-cc930f15cb46/headshot.jpg?v=1746156781259" alt="Featured Art">
     <h2 id="featureTitle">Featured Artist: Jane Doe</h2>
