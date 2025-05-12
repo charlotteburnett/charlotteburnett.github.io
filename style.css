@@ -97,3 +97,29 @@ nav {
   height: 100%;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    margin: 0 10px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  .bio, .writer, .name {
+    font-size: 1em;
+  }
+
+  nav {
+    padding: 10px;
+    font-size: 1em;
+  }
+}
