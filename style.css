@@ -104,6 +104,7 @@ nav {
     margin: 0 10px;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: repeat-x;
   }
 
   .container {
