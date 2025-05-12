@@ -1,7 +1,7 @@
 /* make comments within this syntax */
 
 body {
-  font-family: Georgia, serif;
+  font-family: "EB Garamond", Georgia, serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -10,8 +10,18 @@ body {
 }
 
 .name {
-  font-family: "comic sans"
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 20px;
+  color: navy;
 }
+
+.eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
