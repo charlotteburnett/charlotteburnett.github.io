@@ -9,6 +9,11 @@ body {
   color: #333333;
 }
 
+a:hover {
+  color: pink;
+  font-size: 18px;
+}
+
 .name {
   font-family: "EB Garamond", Georgia, serif;
   font-size: 20px;
@@ -137,7 +142,7 @@ a:hover {
   gap: 0.75rem;
 }
 .navbar nav a:hover {
-  text-decoration: underline;
+  font-family: serif ;
 }
 .spacer {
   height: 20px;
