@@ -3,7 +3,7 @@
 body {
   font-family: "EB Garamond", Georgia, serif;
   line-height: 1.6;
-  margin: 0 0;
+  margin: 0 200px 0;
   padding: 0;
   background-color: #f9f9f9;
   color: #333333;
@@ -85,14 +85,7 @@ nav {
   color: transparent;
   padding: 10px 10px;
   border: 50px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 0 200px 0;
   height: 100%;
   text-align: left;
-}
-
-img { 
-  width: 100%;
-  height: 
-  
 }
