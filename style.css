@@ -1,12 +1,16 @@
 /* make comments within this syntax */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
   color: #333333;
+}
+
+.name {
+  font-family: "comic sans"
 }
 .container {
   max-width: 800px;
