@@ -3,7 +3,7 @@
 body {
   font-family: "EB Garamond", Georgia, serif;
   line-height: 1.6;
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   background-color: #f9f9f9;
   color: #333333;
@@ -12,6 +12,12 @@ body {
 .name {
   font-family: "EB Garamond", Georgia, serif;
   font-size: 20px;
+  color: navy;
+}
+
+.writer {
+  line-height: 1px;
+  font-weight: bold;
   color: navy;
 }
 
@@ -31,6 +37,8 @@ body {
 header {
   text-align: center;
   padding-bottom: 20px;
+  margin-top: 30px;
+  background-color: ;
 }
 header img {
   width: 150px;
