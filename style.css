@@ -7,11 +7,13 @@ body {
   padding: 10px;
   background-color: #f9f9f9;
   background-image: url("https://cdn.glitch.global/a52d9d21-75e6-42c4-ae43-ebef38486a4f/orangetree.jpg?v=1747032874496");
-  color: #333333;
-  border: 3px solid white;
 }
 
-
+.inner {
+  background-color: #f9f9f9;
+  color: #333333;
+  border: 3px solid #f9f9f9;
+}
 
 a:hover {
   color: pink;
@@ -54,7 +56,7 @@ a:hover {
 header {
   text-align: center;
   padding-bottom: 20px;
-  background-color: ;
+  background-color: #f9f9f9;
 }
 
 h1 {
